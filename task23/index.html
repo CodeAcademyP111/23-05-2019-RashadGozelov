@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+       <div class="row mt-5">
+           <div class="col-12">
+               <form action="" id="register">
+                   <div class="form-group">
+                        <label for="username">Adiniz</label>                     
+                        <input type="text" data-msg="Zehmet olmasa bos buraxmayin" autocomplete="off" class="form-control required" id="username" name="username">
+                   </div> 
+                   <div class="form-group">
+                       <label for="city">Sheher</label>
+                        <select class="form-control" id="city">
+                            <option value="1">Sech</option>
+                            <option value="2">Baki</option>
+                            <option value="3">Qobustan</option>
+                            <option value="4">Sheki</option>
+                        </select>
+                   </div>
+                   <div class="form-group d-none">
+                        <label for="region">Region</label>
+                         <select class="form-control" id="region">
+                             <option>Mastaga</option>
+                             <option>Bilgeh</option>
+                             <option>Novxani</option>
+                             <option>Corat</option>
+                         </select>
+                    </div>
+                   <div class="form-group">
+                        <label for="surname">Soyadiniz</label>
+                        <input type="text" data-msg="Zehmet olmasa soyadinizi daxil edin" autocomplete="off" class="form-control required" id="surname" name="surname">
+                   </div>       
+                   <div class="form-group">
+                        <label for="password1">Parol</label>
+                        <input type="password" value="" minlength="6" data-msg="Zehmet olmasa parolu daxil edin" autocomplete="off" class="form-control required size" id="password1" name="password">
+                   </div>      
+                   <div class="form-group">
+                        <label for="password2"> Tekrar parol</label>
+                        <input type="password" value="" data-msg1="Sifre ile eyni deyi" data-msg="Zehmet olmasa parolu daxil edin" autocomplete="off" class="form-control required size" id="password2" name="password">
+                   </div>      
+                   <button class="btn btn-success">Daxil et</button>              
+               </form>
+           </div>
+       </div>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
